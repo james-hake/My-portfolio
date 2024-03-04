@@ -25,13 +25,13 @@ import "./styles.css";
  */
 const siteProps = {
   name: "James hake",
-  title: "Cybersecurity Engineer, Web Designer & Content Creator",
+  title: "Cybersecurity Engineer",
   email: "hake.james@outlook.com",
-  gitHub: "https://github.com/james-hake",
+  gitHub: "james-hake",
   instagram: "",
-  linkedIn: "linkedin.com/in/jameshake",
+  linkedIn: "jameshake",
   medium: "",
-  twitter: "https://twitter.com/james_hake",
+  twitter: "james_hake",
   youTube: "",
 };
 
