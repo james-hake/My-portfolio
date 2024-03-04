@@ -18,25 +18,26 @@ import React from "react";
  */
 import image from "../images/electronic2.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "circut board image";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I have a Bachelor of Science, in Cybersecurity and Information Assurance from Western Governors University. I obtained my Associate of Applied Science, Secure Systems Administration & Engineering degree from the Metropolitan Community College where I also achieved my GED. I have a strong passion for all things in Cybersecurity.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Malware Analyst",
+  "Open-Source intelligence Threat Hunter",
+  "Security Engineer",
+  "Digital Forensics Analyst",
+  "Catpure-The-Flag enthusiast",
+  "Programmer",
+  "Tech-geek",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I have developed knowledge of Microsoft Windows, and Linux environments and become more proficient in the command line. I Have improved my scripting skills and continue to learn new techniques to become more efficient. I strive for proficiency, with a work smarter, not harder mentality, welcoming new challenges as opportunities for growth. I have is a desire to figure out how things work. My creativity and passion for learning will help me evolve with technology and develop a strong mindset as a security professional, bettering my abilities to defend and prevent security events.";
 
 const About = () => {
   return (
