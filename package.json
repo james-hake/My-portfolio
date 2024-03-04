@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://james-hake.github.io/My-portfolio",
+  "homepage": "https://james-hake.github.io/My-portfolio/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://james-hake.github.io/My-portfolio'",
+    "build-gh": "parcel build --public-url 'https://james-hake.github.io/My-portfolio/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
