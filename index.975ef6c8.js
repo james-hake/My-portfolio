@@ -27088,13 +27088,13 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "James hake",
-    title: "Cybersecurity Engineer, Web Designer & Content Creator",
+    title: "Cybersecurity Engineer",
     email: "hake.james@outlook.com",
-    gitHub: "https://github.com/james-hake",
+    gitHub: "james-hake",
     instagram: "",
-    linkedIn: "linkedin.com/in/jameshake",
+    linkedIn: "jameshake",
     medium: "",
-    twitter: "https://twitter.com/james_hake",
+    twitter: "james_hake",
     youTube: ""
 };
 const primaryColor = "#4E567E";
@@ -27172,13 +27172,13 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _electronic2Jpg = require("../images/electronic2.jpg");
-var _electronic2JpgDefault = parcelHelpers.interopDefault(_electronic2Jpg);
+ */ var _geometricTexture2875Jpg = require("../images/geometric-texture-2875.jpg");
+var _geometricTexture2875JpgDefault = parcelHelpers.interopDefault(_geometricTexture2875Jpg);
 const imageAltText = "circut board image";
 /**
  * Sort description that expands on your title on the Home component.
@@ -27207,7 +27207,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _electronic2JpgDefault.default),
+                src: (0, _geometricTexture2875JpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27301,7 +27301,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/electronic2.jpg":"cqMBQ"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/geometric-texture-2875.jpg":"lOQPv"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27451,8 +27451,8 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"cqMBQ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "electronic2.eae385c3.jpg" + "?" + Date.now();
+},{"react-refresh/runtime":"786KC"}],"lOQPv":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "geometric-texture-2875.42a9ab42.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -28623,8 +28623,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _img1179Jpeg = require("../images/IMG_1179.jpeg");
-var _img1179JpegDefault = parcelHelpers.interopDefault(_img1179Jpeg);
+ */ var _geometricTexture2875Jpg = require("../images/geometric-texture-2875.jpg");
+var _geometricTexture2875JpgDefault = parcelHelpers.interopDefault(_geometricTexture2875Jpg);
 const imageAltText = "Author, James Hake, Profile picture.";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28633,7 +28633,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _img1179JpegDefault.default),
+                src: (0, _geometricTexture2875JpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28716,11 +28716,8 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/IMG_1179.jpeg":"fF4a9"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/geometric-texture-2875.jpg":"lOQPv"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"fF4a9":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "IMG_1179.a29fd7a0.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28891,7 +28888,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/tablet.jpg":"4qIJt"}],"4qIJt":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/tablet.jpg":"4qIJt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4qIJt":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "tablet.622ef42d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
