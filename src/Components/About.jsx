@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/electronic2.jpg";
+import image from "../images/geometric-texture-2875.jpg;
 
 const imageAltText = "circut board image";
 
